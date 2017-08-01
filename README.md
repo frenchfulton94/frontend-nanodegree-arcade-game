@@ -1,6 +1,18 @@
-frontend-nanodegree-arcade-game
-===============================
+#Installation
+1. Open terminal, and 'cd frontend-nanodegree-arcade-game'.
+2. Type and run 'python -m SimpleHTTPServer 8000'
+3. Open a browser and type 'localhost:8000'
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+#Gameplay Instructions
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+##Key Bindings
+**up arrow**: move forward
+**down arrow**: move backward 
+**left arrow**: move left
+**right arrow**: move right
+**spacebar**: pause/resume
+
+##Game rules
+**GOAL**: Cross the path to the river without getting attacked by a bug. 
+Your score increases each time you reach the river without interacting with a bug. 
+If you run into a bug, you are sent back to the start location and your score is set to 0.
